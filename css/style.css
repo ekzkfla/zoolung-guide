@@ -1,0 +1,521 @@
+/* ===========================
+   Jurung Jurung Guide v2
+   style.css
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+:root{
+
+    --primary:#2E7D32;
+    --primary-light:#4CAF50;
+
+    --background:#F6F9F5;
+
+    --card:#FFFFFF;
+
+    --text:#333333;
+
+    --sub:#666666;
+
+    --border:#E6ECE6;
+
+    --shadow:0 8px 20px rgba(0,0,0,.08);
+
+    --radius:22px;
+
+}
+
+body{
+
+    font-family:'Pretendard',sans-serif;
+
+    background:var(--background);
+
+    color:var(--text);
+
+    line-height:1.7;
+
+}
+
+.container{
+
+    width:100%;
+    max-width:480px;
+
+    margin:auto;
+
+    padding:25px 18px 40px;
+
+}
+
+
+
+
+
+
+/* ===========================
+      HEADER
+=========================== */
+
+header{
+
+    text-align:center;
+
+    margin-bottom:25px;
+
+}
+
+.logo{
+
+    width:150px;
+
+    margin-bottom:18px;
+
+}
+
+.branch{
+
+    color:var(--primary);
+
+    font-size:15px;
+
+    font-weight:600;
+
+    margin-bottom:8px;
+
+}
+
+header h1{
+
+    font-size:32px;
+
+    color:var(--primary);
+
+}
+
+
+
+
+
+
+/* ===========================
+      CARD
+=========================== */
+
+.card{
+
+    background:var(--card);
+
+    border-radius:var(--radius);
+
+    padding:25px;
+
+    margin-bottom:22px;
+
+    box-shadow:var(--shadow);
+
+}
+
+.card h2{
+
+    color:var(--primary);
+
+    margin-bottom:18px;
+
+    font-size:23px;
+
+}
+
+.card p{
+
+    font-size:17px;
+
+    color:#444;
+
+}
+
+
+
+
+
+
+/* ===========================
+      Welcome
+=========================== */
+
+.welcome{
+
+    background:linear-gradient(
+
+        180deg,
+
+        #FFFFFF,
+
+        #F4FFF5
+
+    );
+
+}
+
+
+
+
+
+
+/* ===========================
+      Badge
+=========================== */
+
+.badge-wrap{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:12px;
+
+    margin:20px 0;
+
+}
+
+.badge{
+
+    background:#E8F5E9;
+
+    color:var(--primary);
+
+    border-radius:30px;
+
+    padding:10px 18px;
+
+    font-weight:600;
+
+}
+
+.notice{
+
+    background:#FFFDE7;
+
+    border-left:5px solid #FFD54F;
+
+    border-radius:12px;
+
+    padding:15px;
+
+    margin-top:20px;
+
+}
+
+
+
+
+
+
+/* ===========================
+      Program Button
+=========================== */
+
+.program-button{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    text-decoration:none;
+
+    background:linear-gradient(
+
+        135deg,
+
+        #2E7D32,
+
+        #43A047
+
+    );
+
+    color:white;
+
+    border-radius:22px;
+
+    padding:24px;
+
+    box-shadow:
+
+        0 12px 25px rgba(46,125,50,.25);
+
+    transition:.25s;
+
+    margin-bottom:30px;
+
+}
+
+.program-button:hover{
+
+    transform:translateY(-3px);
+
+}
+
+.program-button small{
+
+    letter-spacing:2px;
+
+    opacity:.8;
+
+}
+
+.program-button h3{
+
+    margin:8px 0;
+
+    font-size:24px;
+
+}
+
+.program-button p{
+
+    opacity:.9;
+
+    font-size:15px;
+
+}
+
+.arrow{
+
+    font-size:42px;
+
+}
+
+
+
+
+
+
+/* ===========================
+      Footer
+=========================== */
+
+footer{
+
+    text-align:center;
+
+    color:#777;
+
+    padding:20px 0;
+
+}
+
+footer strong{
+
+    display:block;
+
+    margin:10px 0;
+
+    color:var(--primary);
+
+    font-size:22px;
+
+}
+
+footer span{
+
+    display:block;
+
+    margin-top:8px;
+
+}
+
+
+
+
+
+
+/* ===========================
+      Mobile
+=========================== */
+
+@media(max-width:480px){
+
+.logo{
+
+    width:120px;
+
+}
+
+header h1{
+
+    font-size:28px;
+
+}
+
+.card{
+
+    padding:22px;
+
+}
+
+.card h2{
+
+    font-size:20px;
+
+}
+
+.card p{
+
+    font-size:16px;
+
+}
+
+.program-button{
+
+    padding:20px;
+
+}
+
+.program-button h3{
+
+    font-size:21px;
+
+}
+
+.arrow{
+
+    font-size:34px;
+
+}
+
+}
+/* ===========================
+      Program Page
+=========================== */
+
+.back-btn{
+
+    display:inline-block;
+
+    text-decoration:none;
+
+    color:var(--primary);
+
+    font-weight:600;
+
+    margin-bottom:25px;
+
+}
+
+.today-date{
+
+    margin-top:10px;
+
+    color:#777;
+
+}
+
+.current-program{
+
+    background:linear-gradient(
+        135deg,
+        #2E7D32,
+        #43A047);
+
+    color:white;
+
+    border-radius:22px;
+
+    padding:30px;
+
+    text-align:center;
+
+    margin-bottom:25px;
+
+    box-shadow:var(--shadow);
+
+}
+
+.current-program span{
+
+    font-size:15px;
+
+    opacity:.9;
+
+}
+
+.current-program h2{
+
+    margin:15px 0;
+
+    font-size:30px;
+
+}
+
+.current-program p{
+
+    font-size:20px;
+
+    opacity:.9;
+
+}
+
+.schedule-item{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:18px;
+
+    border-radius:16px;
+
+    background:#F7F9F7;
+
+    margin-top:15px;
+
+    transition:.2s;
+
+}
+
+.schedule-item.active{
+
+    background:#E8F5E9;
+
+    border:2px solid var(--primary);
+
+}
+
+.schedule-time{
+
+    font-size:22px;
+
+    font-weight:bold;
+
+    color:var(--primary);
+
+}
+
+.schedule-title{
+
+    text-align:right;
+
+    font-weight:600;
+
+}
+
+.guide-list{
+
+    padding-left:20px;
+
+}
+
+.guide-list li{
+
+    margin-bottom:15px;
+
+}
