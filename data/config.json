@@ -1,0 +1,25 @@
+{
+  "store": {
+    "name": "주렁주렁 하남",
+    "phone": "1644-2153 (2번)",
+    "address": "경기도 하남시"
+  },
+
+  "businessHours": {
+    "weekday": {
+      "title": "평일 운영",
+      "open": "12:00",
+      "ticketClose": "18:00",
+      "close": "19:00"
+    },
+
+    "weekend": {
+      "title": "주말 운영",
+      "open": "10:30",
+      "ticketClose": "18:30",
+      "close": "20:00"
+    }
+  },
+
+  "holiday": []
+}

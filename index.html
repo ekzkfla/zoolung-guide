@@ -1,182 +1,118 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>주렁주렁 하남 | 이용안내</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css" />
 
-    <!-- Pretendard Font -->
-    <link rel="preconnect" href="https://cdn.jsdelivr.net">
-    <link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" rel="stylesheet">
-</head>
+    <!-- Pretendard -->
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+    <link
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
+  <body>
+    <div class="container">
+      <!-- ================= HEADER ================= -->
 
-<div class="container">
+      <header>
+        <img src="images/logo.png" class="logo" alt="주렁주렁" />
 
-    <!-- Header -->
-    <header>
+        <h1>🐾 이용안내</h1>
 
-        <img src="images/logo.png" class="logo" alt="주렁주렁">
-
-        <p class="branch">
-            주렁주렁 하남
+        <p class="subtitle">
+          안전하고 즐거운 여행을 위해<br />
+          아래 내용을 확인해 주세요.
         </p>
+      </header>
 
-        <h1>
-            🐾 이용안내
-        </h1>
+      <!-- ================= 운영시간 ================= -->
 
-    </header>
+      <section class="card welcome-card">
+        <h2 id="statusBadge">🟢 오늘 운영안내</h2>
 
-    <!-- 환영카드 -->
-    <section class="card welcome">
+        <div id="businessInfo"></div>
+      </section>
 
-        <h2>주렁주렁~!</h2>
+      <!-- ================= 주의사항 ================= -->
+      <section class="card notice-card">
+        <h2>📢 꼭 지켜주세요</h2>
 
-        <p>
+        <ul class="check-list">
+          <li>📸 플래시 촬영은 삼가 주세요.</li>
 
-            오늘도 주렁주렁을 찾아주셔서
-            진심으로 감사합니다.
+          <li>🚫 동물 친구들을 놀라게 하는 행동은 하지 말아 주세요.</li>
 
-            <br><br>
+          <li>🍎 간식 교감은 직원 안내에 따라 참여해 주세요.</li>
 
-            동물과 사람을 연결하는 특별한 공간,
-            주렁주렁에서 안전하고 즐거운 여행이 될 수 있도록
-            아래 안내사항을 꼭 확인해 주세요.
+          <li>🚶 통로에서는 뛰지 말고 천천히 이동해 주세요.</li>
+        </ul>
+      </section>
 
-            <br><br>
+      <!-- ================= 보호자 ================= -->
 
-            여러분의 작은 배려가
-            동물 친구들에게는 큰 행복이 됩니다. 💚
+      <section class="card guardian-card">
+        <h2>👨‍👩‍👧 보호자 동행 안내</h2>
 
+        <p class="center-text">
+          영유아 및 어린이는
+          <strong>반드시 보호자와 함께 이용해 주세요.</strong>
         </p>
+      </section>
 
-    </section>
+      <!-- ================= 교감 가능한 동물 ================= -->
 
-    <!-- 동물 교감 -->
+      <section class="card animal-card">
+        <h2>🐾 교감 가능한 동물</h2>
 
-    <section class="card">
-
-        <h2>
-            🐾 동물친구들과의 교감
-        </h2>
-
-        <p>
-
-            동물친구들과의 터치 및 교감은
-            아래 친구들과만 가능합니다.
-
+        <p class="animal-text">
+          아래 동물 친구들은<br />
+          얼굴은 만지지 말고,<br />
+          등과 엉덩이를 부드럽게 쓰다듬어 주세요.
         </p>
 
         <div class="badge-wrap">
+          <span class="badge">🦆 콜덕</span>
 
-            <span class="badge">🦆 콜덕</span>
+          <span class="badge">🐰 토끼</span>
 
-            <span class="badge">🐰 토끼</span>
+          <span class="badge">🐢 설가타</span>
 
-            <span class="badge">🐢 설가타</span>
-
-            <span class="badge">🦘 왈라비</span>
-
+          <span class="badge">🦘 왈라비</span>
         </div>
 
-        <div class="notice">
-
-            다른 동물친구들은
-            편안한 휴식을 위해
-            눈으로만 만나 주세요.
-
+        <div class="notice-box">
+          💚 다른 동물 친구들은 눈으로만 만나 주세요.
         </div>
+      </section>
+      <!-- ================= LIVE PROGRAM ================= -->
 
-    </section>
+      <section class="live-program">
+        <div id="currentProgram"></div>
 
-    <!-- 보호자 -->
-
-    <section class="card">
-
-        <h2>
-
-            👨‍👩‍👧 어린이는 보호자와 함께
-
-        </h2>
-
-        <p>
-
-            어린이 친구들은
-            반드시 보호자와 함께 이동해 주세요.
-
-            <br><br>
-
-            동물친구들과 만날 때에는
-            부모님과 함께
-            천천히 걸으며 여행해 주세요.
-
-        </p>
-
-    </section>
-
-    <!-- 프로그램 이동 -->
-
-    <section>
-
+        <div id="nextProgram"></div>
+      </section>
+      <!-- ================= 프로그램 버튼 ================= -->
+      <section class="program-section">
         <a href="program.html" class="program-button">
+          <div>
+            <small>PROGRAM</small>
 
-            <div>
+            <h3>📅 전체 프로그램 보기</h3>
 
-                <small>PROGRAM</small>
+            <p>오늘 진행되는 프로그램을 확인해 보세요.</p>
+          </div>
 
-                <h3>
-
-                    📅 오늘의 프로그램 보기
-
-                </h3>
-
-                <p>
-
-                    먹이주기 · 설명회 · 체험시간 확인
-
-                </p>
-
-            </div>
-
-            <div class="arrow">
-
-                →
-
-            </div>
-
+          <div class="arrow">❯</div>
         </a>
+      </section>
+    </div>
 
-    </section>
-
-    <!-- Footer -->
-
-    <footer>
-
-        <p>
-
-            모두가 행복한 동물 친구들의 공간
-
-        </p>
-
-        <strong>
-
-            JURUNG JURUNG
-
-        </strong>
-
-        <span>
-
-            즐거운 여행 되세요 🐾
-
-        </span>
-
-    </footer>
-
-</div>
-
-</body>
+    <script src="js/main.js"></script>
+  </body>
 </html>

@@ -1,0 +1,358 @@
+/* =========================================
+   HOME.CSS
+   index.html 전용
+========================================= */
+
+/* ==========================
+   운영안내
+========================== */
+
+.business-card {
+  background: #f7fcf7;
+
+  border: 2px solid #ddefd9;
+}
+
+#businessInfo {
+  margin-top: 15px;
+}
+
+.time-row {
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  padding: 12px 0;
+
+  border-bottom: 1px dashed #dddddd;
+}
+
+.time-row:last-child {
+  border-bottom: none;
+}
+
+.time-row span {
+  color: #666;
+
+  font-size: 15px;
+}
+
+.time-row strong {
+  color: var(--primary);
+
+  font-size: 17px;
+}
+
+.open-title {
+  color: var(--primary);
+}
+
+.close-title {
+  color: #e53935;
+}
+
+/* ==========================
+   이용안내
+========================== */
+
+.welcome-card {
+  background: #ffffff;
+}
+
+.welcome-card p {
+  line-height: 1.8;
+}
+
+/* ==========================
+   주의사항
+========================== */
+
+.notice-card {
+  background: #fffdf3;
+
+  border: 2px solid #ffe8a3;
+}
+
+.notice-card ul {
+  list-style: none;
+
+  margin-top: 10px;
+}
+
+.notice-card li {
+  padding: 12px 0;
+
+  border-bottom: 1px solid #ececec;
+}
+
+.notice-card li:last-child {
+  border-bottom: none;
+}
+
+/* ==========================
+   보호자 안내
+========================== */
+
+.guardian-card {
+  background: #f4faff;
+
+  border: 2px solid #d5ebff;
+}
+
+.center-text {
+  text-align: center;
+
+  font-size: 17px;
+
+  line-height: 1.8;
+
+  font-weight: 600;
+}
+
+/* ==========================
+   교감 가능한 동물
+========================== */
+
+.animal-card {
+  background: #f5fff8;
+
+  border: 2px solid #d9f2df;
+}
+
+.animal-text {
+  text-align: center;
+
+  margin-bottom: 18px;
+
+  color: #555;
+}
+
+.badge-wrap {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  gap: 12px;
+
+  margin-top: 18px;
+}
+
+.notice-box {
+  margin-top: 18px;
+
+  background: #fff8dc;
+
+  border-radius: 14px;
+
+  padding: 14px;
+
+  color: #7d5a00;
+
+  font-size: 14px;
+
+  line-height: 1.6;
+}
+
+/* ==========================
+   LIVE PROGRAM
+========================== */
+
+.live-program {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 16px;
+
+  margin-bottom: 22px;
+}
+
+/* 현재 진행 */
+
+.live-card {
+  position: relative;
+
+  background: #f3fff4;
+
+  border-left: 8px solid var(--primary);
+
+  border-radius: 22px;
+
+  padding: 22px;
+
+  box-shadow: var(--shadow);
+}
+
+.live-card::before {
+  content: "LIVE";
+
+  position: absolute;
+
+  top: 18px;
+
+  right: 18px;
+
+  background: var(--primary);
+
+  color: white;
+
+  padding: 4px 10px;
+
+  border-radius: 20px;
+
+  font-size: 11px;
+
+  font-weight: bold;
+}
+
+/* 다음 프로그램 */
+
+.live-card.next {
+  background: #fffbea;
+
+  border-left: 8px solid var(--warning);
+}
+
+.live-card.next::before {
+  content: "NEXT";
+
+  background: var(--warning);
+}
+
+.live-title {
+  font-size: 14px;
+
+  color: #666;
+
+  font-weight: 700;
+}
+
+.live-name {
+  font-size: 23px;
+
+  font-weight: 800;
+
+  margin: 10px 0;
+}
+
+.live-time {
+  color: var(--primary);
+
+  font-weight: 700;
+
+  margin-top: 6px;
+}
+
+.live-place {
+  color: #666;
+
+  margin-top: 6px;
+}
+
+/* ==========================
+   PROGRAM BUTTON
+========================== */
+
+.program-section {
+  margin-top: 24px;
+}
+
+.program-button {
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  position: relative;
+
+  overflow: hidden;
+
+  background: linear-gradient(135deg, #49b14d, #2f8b36);
+
+  color: white;
+
+  border-radius: 22px;
+
+  padding: 24px;
+
+  box-shadow: 0 10px 25px rgba(46, 125, 50, 0.25);
+
+  transition: 0.25s;
+}
+
+.program-button:hover {
+  transform: translateY(-4px);
+}
+
+.program-button::after {
+  content: "";
+
+  position: absolute;
+
+  top: 0;
+
+  left: -120%;
+
+  width: 80%;
+
+  height: 100%;
+
+  background: rgba(255, 255, 255, 0.18);
+
+  transform: skewX(-25deg);
+
+  transition: 0.8s;
+}
+
+.program-button:hover::after {
+  left: 130%;
+}
+
+.program-button small {
+  opacity: 0.9;
+
+  letter-spacing: 1px;
+}
+
+.program-button h3 {
+  margin: 8px 0;
+
+  font-size: 22px;
+}
+
+.program-button p {
+  font-size: 14px;
+
+  opacity: 0.95;
+}
+
+.arrow {
+  font-size: 34px;
+
+  font-weight: bold;
+}
+
+/* ==========================
+   HOME MOBILE
+========================== */
+
+@media (max-width: 480px) {
+  .badge-wrap {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .live-name {
+    font-size: 20px;
+  }
+
+  .program-button {
+    padding: 20px;
+  }
+
+  .program-button h3 {
+    font-size: 20px;
+  }
+}

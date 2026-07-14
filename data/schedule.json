@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1,
+    "day": "weekend",
+    "start": "11:30",
+    "end": "11:45",
+    "title": "스페셜게스트",
+    "place": "랜덤(방송참고)",
+    "category": "special",
+    "icon": "⭐",
+    "color": "orange"
+  },
+  {
+    "id": 2,
+    "day": "weekend",
+    "start": "12:00",
+    "end": "12:15",
+    "title": "수달 간식교감",
+    "place": "폭포 놀이터",
+    "category": "feeding",
+    "icon": "🦦",
+    "color": "blue"
+  },
+
+  {
+    "id": 3,
+    "day": "weekday",
+    "start": "12:30",
+    "end": "12:45",
+    "title": "여우야 여우야 뭐하니?",
+    "place": "메아리 언덕",
+    "category": "experience",
+    "icon": "🦊",
+    "color": "green"
+  },
+  {
+    "id": 4,
+    "day": "weekday",
+    "start": "13:00",
+    "end": "13:10",
+    "title": "수달 간식교감",
+    "place": "폭포 놀이터",
+    "category": "feeding",
+    "icon": "🦦",
+    "color": "blue"
+  },
+  {
+    "id": 5,
+    "day": "weekday",
+    "start": "13:30",
+    "end": "13:45",
+    "title": "카피바라 간식 교감",
+    "place": "메아리 언덕",
+    "category": "feeding",
+    "icon": "🦫",
+    "color": "brown"
+  },
+  {
+    "id": 6,
+    "day": "weekday",
+    "start": "14:00",
+    "end": "14:10",
+    "title": "수달 간식교감",
+    "place": "폭포 놀이터",
+    "category": "feeding",
+    "icon": "🦦",
+    "color": "blue"
+  },
+  {
+    "id": 7,
+    "day": "weekday",
+    "start": "14:30",
+    "end": "14:45",
+    "title": "알락꼬리여우원숭이의 산책",
+    "place": "붉은 협곡",
+    "category": "walk",
+    "icon": "🐒",
+    "color": "purple"
+  },
+  {
+    "id": 8,
+    "day": "weekday",
+    "start": "15:00",
+    "end": "15:10",
+    "title": "수달 간식교감",
+    "place": "폭포 놀이터",
+    "category": "feeding",
+    "icon": "🦦",
+    "color": "blue"
+  },
+  {
+    "id": 9,
+    "day": "weekend",
+    "start": "15:00",
+    "end": "15:20",
+    "title": "주렁 운동회",
+    "place": "주민 광장",
+    "category": "event",
+    "icon": "🎉",
+    "color": "red"
+  },
+  {
+    "id": 10,
+    "day": "weekday",
+    "start": "15:30",
+    "end": "15:45",
+    "title": "설가타 육지거북 간식 교감",
+    "place": "붉은 협곡",
+    "category": "feeding",
+    "icon": "🐢",
+    "color": "green"
+  },
+  {
+    "id": 11,
+    "day": "weekday",
+    "start": "16:00",
+    "end": "16:10",
+    "title": "수달 간식교감",
+    "place": "폭포 놀이터",
+    "category": "feeding",
+    "icon": "🦦",
+    "color": "blue"
+  },
+  {
+    "id": 12,
+    "day": "weekday",
+    "start": "16:00",
+    "end": "16:15",
+    "title": "카피바라의 꽃단장 시간",
+    "place": "메아리 언덕",
+    "category": "experience",
+    "icon": "🦫",
+    "color": "brown"
+  },
+  {
+    "id": 13,
+    "day": "weekday",
+    "start": "16:30",
+    "end": "16:45",
+    "title": "스페셜게스트",
+    "place": "랜덤(방송참고)",
+    "category": "special",
+    "icon": "⭐",
+    "color": "orange"
+  },
+  {
+    "id": 14,
+    "day": "weekday",
+    "start": "17:00",
+    "end": "17:10",
+    "title": "수달 간식교감",
+    "place": "폭포 놀이터",
+    "category": "feeding",
+    "icon": "🦦",
+    "color": "blue"
+  },
+  {
+    "id": 15,
+    "day": "weekday",
+    "start": "17:00",
+    "end": "17:15",
+    "title": "왈라비 멀리뛰기 대회",
+    "place": "주민 광장",
+    "category": "event",
+    "icon": "🦘",
+    "color": "red"
+  },
+  {
+    "id": 16,
+    "day": "weekday",
+    "start": "17:30",
+    "end": "17:45",
+    "title": "스페셜게스트",
+    "place": "랜덤(방송참고)",
+    "category": "special",
+    "icon": "⭐",
+    "color": "orange"
+  },
+  {
+    "id": 17,
+    "day": "weekday",
+    "start": "18:00",
+    "end": "18:10",
+    "title": "수달 간식교감",
+    "place": "폭포 놀이터",
+    "category": "feeding",
+    "icon": "🦦",
+    "color": "blue"
+  },
+  {
+    "id": 18,
+    "day": "weekday",
+    "start": "18:30",
+    "end": "18:45",
+    "title": "스페셜게스트",
+    "place": "랜덤(방송참고)",
+    "category": "special",
+    "icon": "⭐",
+    "color": "orange"
+  },
+  {
+    "id": 19,
+    "day": "weekend",
+    "start": "19:30",
+    "end": "19:45",
+    "title": "스페셜게스트",
+    "place": "랜덤(방송참고)",
+    "category": "special",
+    "icon": "⭐",
+    "color": "orange"
+  }
+]

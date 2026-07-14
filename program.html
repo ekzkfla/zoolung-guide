@@ -1,181 +1,56 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
 
-<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <meta charset="UTF-8">
+    <title>주렁주렁 하남 | 오늘의 프로그램</title>
 
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/program.css" />
 
-    <title>오늘의 프로그램 | 주렁주렁 하남</title>
+    <!-- Pretendard -->
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" />
 
-    <link rel="stylesheet" href="style.css">
+    <link
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css"
+      rel="stylesheet"
+    />
+  </head>
 
-    <link rel="preconnect"
-          href="https://cdn.jsdelivr.net">
+  <body>
+    <div class="container">
+      <!-- 뒤로가기 -->
 
-    <link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css"
-          rel="stylesheet">
+      <a href="index.html" class="back-button"> ← 이용안내 </a>
 
-</head>
+      <!-- 헤더 -->
 
-<body>
+      <header class="program-header">
+        <h1>📅 오늘의 프로그램</h1>
 
-<div class="container">
-
-    <!-- 뒤로가기 -->
-
-    <a href="index.html" class="back-btn">
-
-        ← 이용안내
-
-    </a>
-
-
-
-
-
-    <!-- Header -->
-
-    <header>
-
-        <img src="images/logo.png"
-             class="logo"
-             alt="주렁주렁">
-
-        <p class="branch">
-
-            주렁주렁 하남
-
+        <p class="subtitle">
+          오늘 진행되는 프로그램을 시간순으로 확인해 보세요.
         </p>
 
-        <h1>
+        <p id="today" class="today"></p>
 
-            📅 오늘의 프로그램
+        <div id="dayType" class="day-badge">평일 프로그램</div>
+      </header>
 
-        </h1>
+      <!-- 프로그램 리스트 -->
 
-        <p id="todayDate"
-           class="today-date">
-
-        </p>
-
-    </header>
-
-
-
-
-
-    <!-- 현재 진행중 -->
-
-    <section class="current-program">
-
-        <span>
-
-            🟢 현재 진행 중
-
-        </span>
-
-        <h2 id="currentTitle">
-
-            프로그램을 확인중입니다.
-
-        </h2>
-
-        <p id="currentTime">
-
-            잠시만 기다려 주세요.
-
-        </p>
-
-    </section>
-
-
-
-
-
-    <!-- 오늘 시간표 -->
-
-    <section class="card">
-
-        <h2>
-
-            오늘의 시간표
-
-        </h2>
-
-        <div id="scheduleList">
-
+      <section class="schedule-section">
+        <div id="scheduleList" class="schedule-list">
+          <!-- program.js에서 자동 생성 -->
         </div>
+      </section>
+    </div>
 
-    </section>
+    <!-- JS -->
 
-
-
-
-
-    <!-- 안내 -->
-
-    <section class="card">
-
-        <h2>
-
-            📢 프로그램 이용안내
-
-        </h2>
-
-        <ul class="guide-list">
-
-            <li>
-                프로그램 시작 5분 전에
-                해당 장소로 이동해 주세요.
-            </li>
-
-            <li>
-                동물의 컨디션에 따라
-                프로그램은 변경될 수 있습니다.
-            </li>
-
-            <li>
-                직원의 안내에 따라
-                안전하게 참여해 주세요.
-            </li>
-
-        </ul>
-
-    </section>
-
-
-
-
-
-    <footer>
-
-        <p>
-
-            오늘도 즐거운 여행 되세요.
-
-        </p>
-
-        <strong>
-
-            JURUNG JURUNG
-
-        </strong>
-
-        <span>
-
-            🐾
-
-        </span>
-
-    </footer>
-
-</div>
-
-<script src="script.js"></script>
-
-</body>
-
+    <script src="js/program.js"></script>
+  </body>
 </html>
